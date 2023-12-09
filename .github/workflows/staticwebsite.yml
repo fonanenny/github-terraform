@@ -8,7 +8,7 @@ on:
 # Trigger the workflow on push or pull request events but only for the main branch
   push: 
     paths: 
-      - 'github-terraform/leksjon07/staticwebsite/**'
+      - "github-terraform/leksjon07/staticwebsite/**"
 
 # A worksflow run is made up of one or mode jobs that can run sequently or in parallel
 jobs:
