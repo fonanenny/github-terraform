@@ -3,22 +3,22 @@ variable "location" {
   description = "Location of the resource"
   default     = "westeurope"
 }
-variable "rg_name" {
+variable "resource_group_name" {
   type        = string
   description = "Name of the resource group"
-  default     = "rg-web"
+  default     = "resource-group-web"
 }
 
-variable "sa_name" {
+variable "storage_account_name" {
   type        = string
   description = "Name of the storage account"
-  default     = "saweb"
+  default     = "storage-account-web"
 }
 
-variable "source_content" {
+variable "source_content_web" {
   type        = string
   description = "Source content for the index.html file"
-  default     = "<h1>Made with Terraform - CI/CD - update del 2</h1>"
+  default     = "<h1>Made with Terraform </h1>"
 }
 
 variable "index_document" {
