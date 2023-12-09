@@ -8,7 +8,7 @@ on:
 # Trigger the workflow on push or pull request events but only for the main branch
   push: 
     paths: 
-      - "code/github-terraform/leksjon07/staticwebsite/**"
+      - 'github-terraform/leksjon07/staticwebsite/**'
 
 # A worksflow run is made up of one or mode jobs that can run sequently or in parallel
 jobs:
@@ -23,7 +23,7 @@ jobs:
       ARM_CLIENT_SECRET: ${{ secrets.AZURE_CLIENT_SECRET }}
       ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
       ARM_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
-      WORKING_DIR: ./code/github-terraform/leksjon07/staticwebsite
+      WORKING_DIR: ./github-terraform/leksjon07/staticwebsite
 
     # Steps represents a sequence of tasks that will ve executed as part of the job 
     steps: 
